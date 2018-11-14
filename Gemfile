@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 gem "redcarpet"
-gem "activesupport"
+gem "activesupport", ">= 3.2.14"
 gem "highline"
 gem "rake"
 gem "coderay", :git => "git://github.com/dgeb/coderay.git", :branch => "handlebars"
-gem "middleman", '~> 3.0'
-gem "middleman-blog", "~> 3.0"
+gem "middleman", "~> 3.1", ">= 3.1.0"
+gem "middleman-blog", "~> 3.2", ">= 3.2.0"
 gem "thin"
 gem "rack"
 gem "listen"
