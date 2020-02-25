@@ -109,7 +109,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.0.4)
+    rake (13.0.1)
     rb-fsevent (0.9.3)
     redcarpet (2.3.0)
     rspec (2.13.0)
@@ -170,7 +170,10 @@ DEPENDENCIES
   poltergeist
   pry
   rack
-  rake
+  rake (>= 12.3.3)
   redcarpet
   rspec
   thin
+
+BUNDLED WITH
+   1.17.3

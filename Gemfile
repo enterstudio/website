@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem "redcarpet"
 gem "activesupport"
 gem "highline"
-gem "rake"
+gem "rake", ">= 12.3.3"
 gem "coderay", :git => "git://github.com/dgeb/coderay.git", :branch => "handlebars"
 gem "middleman", '~> 3.0'
 gem "middleman-blog", "~> 3.0"
