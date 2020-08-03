@@ -19,6 +19,6 @@ end
 group :test do
   gem "rspec"
   gem "capybara"
-  gem "poltergeist"
+  gem "poltergeist", ">= 1.4.0"
 end
 
